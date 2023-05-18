@@ -1,3 +1,21 @@
+.headerImages{
+  display:flex;
+  flex-flow:row;
+  column-gap:10px;
+  list-style-type:none;
+  text-align:center;
+}
+.headerImages > li{
+  display: flex;
+  flex-flow: column;
+  row-gap: 10px;
+  align-items: center;
+  margin-left: 10px;
+  border: 1px solid #1e1c1c;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 200px;
+}
 .container {
   max-width: 36rem;
   padding: 0 1rem;
